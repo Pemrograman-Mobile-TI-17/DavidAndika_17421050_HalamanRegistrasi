@@ -90,7 +90,7 @@
         android:layout_height="wrap_content"
         android:text="Daftar"
         android:id="@+id/btnRegis"
-        android:background="@color/colorPrimary"
+        android:background="@color/cardview_dark_background"
         android:textAllCaps="true"/>
 
 

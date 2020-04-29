@@ -12,6 +12,8 @@ import com.davidandika.myapplication.R;
 public class LoginActivity extends AppCompatActivity {
 
     Button btnDaftar;
+    Button btnLogin;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +32,5 @@ public class LoginActivity extends AppCompatActivity {
                 finish();
             }
         });
-
-
     }
 }

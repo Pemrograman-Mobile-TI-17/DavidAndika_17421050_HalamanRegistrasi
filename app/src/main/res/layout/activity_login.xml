@@ -14,13 +14,15 @@
     <ImageView
         android:layout_width="300dp"
         android:layout_height="200dp"
-        android:src="@drawable/icon_login"/>
+        android:src="@drawable/login_icon"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="login"
+        android:text="Kaos Distro"
+        android:gravity="center"
         android:textSize="20dp"
+        android:textColor="@color/cardview_dark_background"
         android:textStyle="bold"
         android:layout_marginRight="16dp"
         android:layout_marginLeft="16dp"/>
@@ -75,12 +77,14 @@
                 android:padding="10dp"
                 android:layout_marginBottom="20dp"
                 app:nb_text="Login"
+                android:textSize="20dp"
+                android:id="@+id/btnLogin"
                 app:nb_borderColor="#FFFFFF"
                 app:nb_borderWidth="2dp"
-                app:nb_backgroundColor="@color/colorPrimary"
+                app:nb_backgroundColor="@color/cardview_dark_background"
                 app:nb_focusColor="#B83CC3"
                 app:nb_textColor="#FFF"
-                app:nb_radius="5dp" />
+                app:nb_radius="10dp" />
 
             <Button
                 android:layout_width="match_parent"

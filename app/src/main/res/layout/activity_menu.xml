@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/putih"
+    tools:context=".Users.MenuActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:src="@drawable/kaos1" />
+
+
+    <TextView
+        android:layout_width="272dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="FALL LOGO – BLACK"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
